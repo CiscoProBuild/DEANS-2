@@ -1,0 +1,43 @@
+Attached Element Context from Integrated Browser
+
+Element: span.import-text
+
+URL: http://localhost:5000/
+
+HTML Path: main > section.intro > div.toolbar > label#importLabel.btn.btn-light.import-button > span.import-content > span.import-text
+
+Outer HTML:
+```html
+<span class="import-text">Import Excel</span>
+```
+
+Dimensions:
+- top: 216px
+- left: 64px
+- width: 80px
+- height: 17px
+
+CSS:
+```css
+* { box-sizing:border-box; }
+
+/* Inherited */
+.btn { font-size:13px; font-weight:700 }
+.btn-light { color:var(--ink) }
+.import-button { cursor:pointer }
+body { color:var(--ink); font-family:"DM Sans",sans-serif }
+
+/* Resolved values */
+box-sizing: border-box;
+color: rgb(74, 58, 22);
+cursor: pointer;
+display: block;
+font-family: "DM Sans", sans-serif;
+font-size: 13px;
+font-weight: 700;
+height: 17px;
+width: 80.0781px;
+
+/* CSS variables */
+--ink: #4a3a16;
+```
